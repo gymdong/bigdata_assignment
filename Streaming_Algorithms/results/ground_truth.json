@@ -1,0 +1,54 @@
+{
+  "n_records": 1000209,
+  "n_unique_pairs": 1000209,
+  "n_users": 6040,
+  "n_movies": 3706,
+  "rating_dist": {
+    "1": 56174,
+    "2": 107557,
+    "3": 261197,
+    "4": 348971,
+    "5": 226310
+  },
+  "ts_min": 956703932,
+  "ts_max": 1046454590,
+  "movie_count_max": 3428,
+  "movie_count_median": 123,
+  "movie_count_min": 1,
+  "movies_count_le_10": 473,
+  "top10pct_share": 0.4438112434501189,
+  "exact_pass_seconds": 0.8059967080480419,
+  "file_bytes": 24594131,
+  "pair_density": 0.044683625622312845,
+  "exact_memory": {
+    "set_pairs": {
+      "current_bytes": 75114625,
+      "peak_bytes": 76425382,
+      "size": 1000209
+    },
+    "dict_movie_counts": {
+      "current_bytes": 321761,
+      "peak_bytes": 344420,
+      "size": 3706
+    },
+    "set_users": {
+      "current_bytes": 746694,
+      "peak_bytes": 850483,
+      "size": 6040
+    },
+    "set_movies": {
+      "current_bytes": 267185,
+      "peak_bytes": 289873,
+      "size": 3706
+    }
+  },
+  "environment": {
+    "os": "Darwin 25.5.0 (26.5.2)",
+    "machine": "arm64",
+    "cpu": "Apple M4",
+    "cpu_cores": "10",
+    "ram_gb": 16.0,
+    "python": "3.12.0",
+    "implementation": "CPython"
+  }
+}

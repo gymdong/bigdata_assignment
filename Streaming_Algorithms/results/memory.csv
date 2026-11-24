@@ -1,0 +1,4 @@
+algo,struct_bytes,traced_current,traced_peak,exact,exact_current,exact_peak
+Bloom Filter (m/n=10),1250262,1267923,1290333,set_pairs,75114625,76425382
+Count-Min Sketch (272×5),5440,6527,28929,dict_movie_counts,321761,344420
+HyperLogLog (p=14),16384,16872,39202,set_pairs,75114625,76425382
