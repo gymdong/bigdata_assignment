@@ -1,0 +1,13 @@
+[project]
+name = "streaming-algorithms"
+version = "0.1.0"
+description = "Bloom Filter / Count-Min Sketch / HyperLogLog on MovieLens 1M"
+requires-python = ">=3.12"
+dependencies = [
+    "certifi",
+    "markdown",
+    "matplotlib",
+    "numpy",
+    "pandas",
+    "pytest",
+]
